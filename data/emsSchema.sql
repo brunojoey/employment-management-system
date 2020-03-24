@@ -13,7 +13,8 @@ CREATE TABLE role (
     title VARCHAR(30) NULL,
     salary DECIMAL(10,3) NOT NULL,
     department_id INTEGER(10) NOT NULL,
-    PRIMARY KEY(id)
+    FOREIGN KEY (department_id) REFERENCES department (id) NULL,
+    PRIMARY KEY(id) 
 );
 
 CREATE TABLE employees (
@@ -23,6 +24,12 @@ CREATE TABLE employees (
     role_id INTEGER(10) NULL,
     manager_id INTEGER(10) NULL
 );
+
+ALTER TABLE employees
+ADD FOREIGN KEY (role_id) REFERENCES role (id) NULL;
+
+ALTER TABLE employees
+ADD FOREIGN KEY (manager_id) REFERENCES employees (id) NULL;
 
 SELECT * FROM department;
 SELECT * FROM role;
