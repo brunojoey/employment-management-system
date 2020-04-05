@@ -1,0 +1,26 @@
+{
+  "name": "employment-management-system",
+  "version": "1.0.0",
+  "description": "* **department**:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunojoey/employment-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunojoey/employment-management-system/issues"
+  },
+  "homepage": "https://github.com/brunojoey/employment-management-system#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1",
+    "util": "^0.12.2"
+  }
+}

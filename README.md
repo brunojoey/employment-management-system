@@ -1,29 +1,30 @@
 # employment-management-system
 
-* **department**:
+## Table of Contents
+* [Author(s)](#author(s))
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Deployment Application Link](#deployment-application-link)
 
-  * **id** - INT PRIMARY KEY
-  * **name** - VARCHAR(30) to hold department name
+## Author(s)
+Joey Bruno
 
-* **role**:
+## Description
+This is an Employee Management Tracker application where you can keep track of the staff, roles, and salaries of your business.
 
-  * **id** - INT PRIMARY KEY
-  * **title** -  VARCHAR(30) to hold role title
-  * **salary** -  DECIMAL to hold role salary
-  * **department_id** -  INT to hold reference to department role belongs to
+## Installation
+To install this application you clone the SSH Key from the main hub page of this repository and you paste that clone link into your Terminal with git clone.
 
-* **employee**:
+## Usage
+To use this application you type 'npm start' into your Terminal and the application should start in the Terminal. 
 
-  * **id** - INT PRIMARY KEY
-  * **first_name** - VARCHAR(30) to hold employee first name
-  * **last_name** - VARCHAR(30) to hold employee last name
-  * **role_id** - INT to hold reference to role employee has
-  * **manager_id** - INT to hold reference to another employee that manager of the current employee. This field may be null if the employee has no manager
-  
-Build a command-line application that at a minimum allows the user to:
+## Contributing
+To contribute, clone this repository into your terminal, work on the project, then create a pull request.
 
-  * Add departments, roles, employees
+## Deployment Application Link
+[Deployed Employee Management System Application Link](https://desolate-crag-49535.herokuapp.com/)
 
-  * View departments, roles, employees
-
-  * Update employee roles
+## Application in Use
+![Employee Management System Application In Use](employee-system-demo.gif)
