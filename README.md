@@ -6,7 +6,7 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Deployment Application Link](#deployment-application-link)
+* [Application in Use](#application-in-use)
 
 ## Author(s)
 Joey Bruno
@@ -22,9 +22,6 @@ To use this application you type 'npm start' into your Terminal and the applicat
 
 ## Contributing
 To contribute, clone this repository into your terminal, work on the project, then create a pull request.
-
-## Deployment Application Link
-[Deployed Employee Management System Application Link](https://desolate-crag-49535.herokuapp.com/)
 
 ## Application in Use
 ![Employee Management System Application In Use](employee-system-demo.gif)
